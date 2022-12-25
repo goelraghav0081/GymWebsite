@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    * {
+        color: black;
+        font-size: 18px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: url("Raghav.jpg");
+        background-size: 100%;
+    }
+
+    .header {
+        margin: 2px auto;
+    }
+
+    .left {
+        margin-top: 0px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        background-color: black;
+        position: absolute;
+        width: 96px;
+        font-size: x-small;
+
+    }
+
+    .left img {
+        height: 87px;
+        width: 95px;
+        filter: invert(100%);
+    }
+
+    .mid {
+        border: 2px solid rgb(0, 255, 234);
+        background-color: #7e71717a;
+        position: absolute;
+        left: 20%;
+        top: 8px;
+        border-radius: 20px;
+        width: 627px;
+        font-style: bold;
+    }
+
+    .right {
+        /* border: 2px solid blue; */
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        color: white;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .navbar li a {
+        font-family: 'Ballo Bhai', 'cursive';
+        color: tomato;
+        font-style: bold;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 19px 19px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a :active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .left div {
+        color: white;
+        background-color: black;
+        font-size: 11px;
+    }
+
+    .btn {
+        color: white;
+        margin: 0px 9px;
+        background-color: black;
+        padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 17px;
+        font-family: 'Ballo Bhai', 'cursive';
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        font-family: 'Ballo Bhai', 'cursive';
+        position: absolute;
+        top: 30%;
+        border: 2px solid #cd0a0a;
+        border-radius: 79px;
+        margin: -35px 98px;
+        padding: 28px 33px;
+        height: 330px;
+        width: 521px;
+        background-color: #7e717142;
+    }
+
+    .formgroup input {
+        color: black;
+        text-align: center;
+        display: block;
+        width: 324px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: tomato;
+        text-decoration: underline;
+        font-size: 33px;
+        font-style: italic;
+    }
+
+    .container button {
+        display: block;
+        width: 65%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="download.png" alt="">
+            <div>RAGHAV FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div><a href="#"></a></div>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best gym of Shamli</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
